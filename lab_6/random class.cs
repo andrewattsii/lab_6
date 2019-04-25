@@ -9,7 +9,7 @@ namespace lab_6
         public static int diceOne(int num1)
         {
             Random random = new Random();
-            return random.Next(1, num1);
+            return random.Next(1, num1 + 1);
         }
 
 

@@ -18,7 +18,7 @@ namespace lab_6
                 {
                 
                   
-                    Console.Write("how many sides do you want your dice to be ? ");
+                    Console.Write("How many sides do you want your dice to be ? ");
                     int userDice = int.Parse(Console.ReadLine());
                     Console.WriteLine("Roll 1:");
 
@@ -29,7 +29,7 @@ namespace lab_6
                        Console.WriteLine(dice1);
                      }
 
-                    Console.WriteLine("Do youwant to roll again ? y/n");
+                    Console.WriteLine("Do you want to roll again ? y/n");
                     string noyes = Console.ReadLine();
 
                     if(noyes == "n")
